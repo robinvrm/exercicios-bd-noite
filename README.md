@@ -1,4 +1,4 @@
-# exercicios-bd-tarde
+# exercicios-bd-noite 
 Exercícios para o módulo de Banco de Dados
 
 01 - Crie uma base de dados com o nome curso_programacao com as tabelas a seguir:
