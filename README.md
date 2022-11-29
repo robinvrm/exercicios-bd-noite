@@ -93,3 +93,43 @@ F- Selecione o(s) aluno(s) residente no Rio Grande do Sul, informse sua primary 
 06 - Gere as sqls e o resultado adicione no txt já existente para suir no git.
 
 a- Selecione todas as informações dos tb_alunos e todas as informações da tb_cidades utilizando as chaves de referência.
+
+07 - criar uma tabela tb_turno com os campos:
+
+(id_turno, turno)
+
+criar os registros:
+
+('manha'),
+('tarde'),
+('noite');
+
+08 - criar uma chave estrangeiro na tb_alunos com referencia ao id turno
+
+09 - selecionar todos os alunos que fazem o curso de html, no turno da tarde.
+
+10 - selecionar todos os alunos que fazem o curso de js, no turno da noite
+
+11 - selecionar apenas os alunos do sexo do tipo 1, que estão matrículados no turno da tarde, independente do curso.
+
+12 - selecionar o nome de todos os alunos que fazem o curso de html e js.
+
+13 - selecionar todos os alunos do paraná, que estão matrículados no turno da manhã.
+
+14 - crie 2 sqls uma para o sexo masculino e outra para o sexo feminino cada uma delas com todos os alunos cadastrados e informe o seu id, nome, data de nascimento, o nome da cidade de onde ele é e o abv do estado e em qual turno eles estão cadastrado.
+
+15 - Selecione todos os alunos cadastrados no curso de php e informe o seu id, nome, data de nascimento, o nome da cidade de onde ele é e em qual turno o mesmo está cadastrado.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1 - Em um arquivo a parte marque qual o número do exercício e insira a sql compatível com a solicitação.
+
+a- Selecione os alunos que não moram em Ponta Grossa.
+
+b- Selecione os alunos matriculados no curso de CSS no turno da tarde ou da noite.
+
+c- Selecione os alunos em que o nome começa com 'mar'.
+
+d- Selecione os alunos em que o nome começa com 'mar' e que sejam do sexo masculino.
+
+e- Gere uma lista de todos os alunos, onde contenha seus ids, nomes, cidade, estado, curso matriculado, turno e ordene ppelo sexo e o nome em ordem alfabética.
